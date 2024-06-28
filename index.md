@@ -1,5 +1,4 @@
-Teste 1
-<br>
+
 
 [![Final video of fixing issues in your code in VS Code]
 (https://img.youtube.com/vi/XCg0nn7UnDQ/maxresdefault.jpg)]
