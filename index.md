@@ -1,7 +1,6 @@
+Testando integração com youtube. 
 
 
-[![Final video of fixing issues in your code in VS Code]
-(https://img.youtube.com/vi/XCg0nn7UnDQ/maxresdefault.jpg)]
-(https://www.youtube.com/watch?v=XCg0nn7UnDQ)
+
 
 {% include youtube.html id="XCg0nn7UnDQ" %}
