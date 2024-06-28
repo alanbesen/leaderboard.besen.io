@@ -20,21 +20,21 @@ Solução de integração com Aplicativo PractiScore (1.7.x e 2.0.x) para Leader
 ## Screenshots
 
 ### Tablet list
-[![Tablet List](_images/tablet01.png)](_images/tablet01.png)
+[![Tablet List](besen.io/assets/tablet01.png)](besen.io/assets/tablet01.png)
 
 ### Último atirar do Stage
 
-[![LastShooter](_images/lastshooter01.png)](_images/lastshooter01.png)
+[![LastShooter](besen.io/assets/lastshooter01.png)](besen.io/assets/lastshooter01.png)
 
 
 ### Stage Detalhado
 
-[![LastShooter](_images/stage01.png)](_images/stage01.png)
+[![LastShooter](besen.io/assets/stage01.png)](besen.io/assets/stage01.png)
 
 ### Stage Resumo
 
-[![LastShooter](_images/stage02.png)](_images/stage02.png)
+[![LastShooter](besen.io/assets/stage02.png)](besen.io/assets/stage02.png)
 
 ### Modo TV - Quiosque
 
-[![LastShooter](_images/kiosk01.png)](_images/kiosk01.png)
+[![LastShooter](besen.io/assets/kiosk01.png)](besen.io/assets/kiosk01.png)
