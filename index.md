@@ -6,7 +6,7 @@ Aplicação: Provas de IPSC para clubes e federações que desejam ter provas ma
 
 Pontos Chaves: IPSC, Practiscore, Leaderboards, score logs, live stream, live results
 
-#### Contatos:
+#### CONTATOS:
 
 Instagram - @alanbesen_ipsc
 
@@ -14,21 +14,25 @@ Youtube - @alanbesen_ipsc
 
 E-Mail - alanc.besen [at] gmail [dot] com
 
+#### EQUIPE IPSC - ZFT INDAIAL/LSC:
+Instagram - @zuchifirearmstraining
+
+
 ## Principais funcionalidades
 
 * Modo Quiosque para exibição em TV 
 * Modo de exibição com Overlay para OBS Studio
 * Modo de exibição por stage (com a pontuação do último atleta)
-* Lista de Dispositivos (tablets) e status em tempo real
+* Lista de Dispositivos (tablets) com status de latência da rede
 * Resultados por stage e por divisão em tempo real
 * Resultados por match points em tempo real
 * Resultados agrupados com somatórias em tempo real
-* Multi Tablets - Coleta resultados de vários tablets
+* Multi Tablets - Coleta resultados de vários tablets de forma sincronizada
 
 
 ## Exemplo - Live com OBS Studio
 
-{% include youtube.html id="XCg0nn7UnDQ" %}
+{% include youtube.html id="es1FoQnq3m0" %}
 
 
 # Screenshots
@@ -65,3 +69,9 @@ Deixar uma ou mais TVs ou dispositivos em loop para exibição dos resultados
 Deixar uma ou mais TVs ou dispositivos em loop para exibição dos resultados, onde soma todos os pontos (A, C, D, M e etc) dos stages que o atirador já passou. 
 
 [![LastShooter](docs/assets/kiosk02.png)](docs/assets/kiosk02.png)
+
+## Modo Stream - Com overlay para OBS studio
+
+Transmissão online com uma ou mais cameras fixas, com possibilidade de vários cenários e transições, overlay de exemplo no print screen abaixo com o resultado dos atletas, onde soma todos os pontos (A, C, D, M e etc) dos stages que o atirador já passou, atualizando em tempo real caso o atleta passe em outros stages
+
+[![LastShooter](docs/assets/youtube01.png)](docs/assets/youtube01.png)
