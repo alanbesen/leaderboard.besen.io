@@ -2,6 +2,10 @@
 
 Solução de integração com Aplicativo PractiScore (1.7.x e 2.0.x) para Leaderboard em tempo real e transmissão Online. 
 
+Aplicação: Provas de IPSC para clubes e federações que desejam ter provas mais imersivas e interativas com os atletas. 
+
+Pontos Chaves: IPSC, Practiscore, Leaderboards, score logs, live stream, live results
+
 ## Principais funcionalidades
 
 * Modo Quiosque para exibição em TV 
@@ -10,6 +14,8 @@ Solução de integração com Aplicativo PractiScore (1.7.x e 2.0.x) para Leader
 * Lista de Dispositivos (tablets) e status em tempo real
 * Resultados por stage e por divisão em tempo real
 * Resultados por match points em tempo real
+* Resultados agrupados com somatórias em tempo real
+* Multi Tablets - Coleta resultados de vários tablets
 
 
 ## Exemplo - Live com OBS Studio
@@ -38,3 +44,7 @@ Solução de integração com Aplicativo PractiScore (1.7.x e 2.0.x) para Leader
 ### Modo TV - Quiosque
 
 [![LastShooter](docs/assets/kiosk01.png)](docs/assets/kiosk01.png)
+
+### Modo TV - Quiosque - Com Soma dos Totais
+
+[![LastShooter](docs/assets/kiosk02.png)](docs/assets/kiosk02.png)
