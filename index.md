@@ -4,7 +4,7 @@ Solução de integração com Aplicativo PractiScore (1.7.x e 2.0.x) para Leader
 
 Aplicação: Provas de IPSC para clubes e federações que desejam ter provas mais imersivas e interativas com os atletas. 
 
-Pontos Chaves: IPSC, Practiscore, Leaderboards, score logs, live stream, live results
+Pontos Chaves: IPSC, Practiscore, Leaderboards, score logs, live stream, live results, live score, kiosk mode for practiscore
 
 #### CONTATOS:
 
