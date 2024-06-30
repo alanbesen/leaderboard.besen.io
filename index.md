@@ -6,6 +6,14 @@ Aplicação: Provas de IPSC para clubes e federações que desejam ter provas ma
 
 Pontos Chaves: IPSC, Practiscore, Leaderboards, score logs, live stream, live results
 
+#### Contatos:
+
+Instagram - @alanbesen_ipsc
+
+Youtube - @alanbesen_ipsc
+
+E-Mail - alanc.besen [at] gmail [dot] com
+
 ## Principais funcionalidades
 
 * Modo Quiosque para exibição em TV 
@@ -23,28 +31,37 @@ Pontos Chaves: IPSC, Practiscore, Leaderboards, score logs, live stream, live re
 {% include youtube.html id="XCg0nn7UnDQ" %}
 
 
-## Screenshots
+# Screenshots
 
-### Tablet list
+## Tablet list
+
+Informações dos tablets, para acompanhar a sincronia de dados 
+
 [![Tablet List](docs/assets/tablet01.png)](docs/assets/tablet01.png)
 
-### Último atirar do Stage
+## Último atirador do Stage
+
+Caso de uso: Dispositivo ou tablet em cada stage, onde exibe o restultado do último atirador que pontuou na pista
 
 [![LastShooter](docs/assets/lastshooter01.png)](docs/assets/lastshooter01.png)
 
 
-### Stage Detalhado
+## Stage Detalhado
 
 [![LastShooter](docs/assets/stage01.png)](docs/assets/stage01.png)
 
-### Stage Resumo
+## Stage Resumo
 
 [![LastShooter](docs/assets/stage02.png)](docs/assets/stage02.png)
 
-### Modo TV - Quiosque
+## Modo TV - Quiosque
+
+Deixar uma ou mais TVs ou dispositivos em loop para exibição dos resultados
 
 [![LastShooter](docs/assets/kiosk01.png)](docs/assets/kiosk01.png)
 
-### Modo TV - Quiosque - Com Soma dos Totais
+## Modo TV - Quiosque - Com Soma dos Totais
+
+Deixar uma ou mais TVs ou dispositivos em loop para exibição dos resultados, onde soma todos os pontos (A, C, D, M e etc) dos stages que o atirador já passou. 
 
 [![LastShooter](docs/assets/kiosk02.png)](docs/assets/kiosk02.png)
