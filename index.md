@@ -68,7 +68,7 @@ Deixar uma ou mais TVs ou dispositivos em loop para exibição dos resultados
 
 Deixar uma ou mais TVs ou dispositivos em loop para exibição dos resultados, onde soma todos os pontos (A, C, D, M e etc) dos stages que o atirador já passou. 
 
-[![LastShooter](docs/assets/kiosk02.png)](docs/assets/kiosk02.png)
+[![LastShooter](docs/assets/kiosk03.png)](docs/assets/kiosk03.png)
 
 ## Modo Stream - Com overlay para OBS studio
 
