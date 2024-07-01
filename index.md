@@ -32,7 +32,7 @@ Instagram - @zuchifirearmstraining
 
 ## Exemplo - Live com OBS Studio
 
-{% include youtube.html id="es1FoQnq3m0" %}
+{% include youtube.html id="f1xRy-IMgw8" %}
 
 
 # Screenshots
@@ -47,7 +47,7 @@ Informações dos tablets, para acompanhar a sincronia de dados
 
 Caso de uso: Dispositivo ou tablet em cada stage, onde exibe o restultado do último atirador que pontuou na pista
 
-[![LastShooter](docs/assets/lastshooter01.png)](docs/assets/lastshooter01.png)
+[![LastShooter](docs/assets/stage_last02.png)](docs/assets/stage_last02.png)
 
 
 ## Stage Detalhado
@@ -68,10 +68,10 @@ Deixar uma ou mais TVs ou dispositivos em loop para exibição dos resultados
 
 Deixar uma ou mais TVs ou dispositivos em loop para exibição dos resultados, onde soma todos os pontos (A, C, D, M e etc) dos stages que o atirador já passou. 
 
-[![LastShooter](docs/assets/kiosk03.png)](docs/assets/kiosk03.png)
+[![LastShooter](docs/assets/kiosk04.png)](docs/assets/kiosk04.png)
 
 ## Modo Stream - Com overlay para OBS studio
 
 Transmissão online com uma ou mais cameras fixas, com possibilidade de vários cenários e transições, overlay de exemplo no print screen abaixo com o resultado dos atletas, onde soma todos os pontos (A, C, D, M e etc) dos stages que o atirador já passou, atualizando em tempo real caso o atleta passe em outros stages
 
-[![LastShooter](docs/assets/youtube01.png)](docs/assets/youtube01.png)
+[![LastShooter](docs/assets/youtube02.png)](docs/assets/youtube02.png)
