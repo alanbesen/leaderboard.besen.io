@@ -32,7 +32,7 @@ Instagram - @zuchifirearmstraining
 
 ## Exemplo - Live com OBS Studio
 
-{% include youtube.html id="f1xRy-IMgw8" %}
+{% include youtube.html id="gMSRpUYfUCY" %}
 
 
 # Screenshots
