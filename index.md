@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Home
+title: IPSC LeaderBoard para PractiScore
 ---
 # Sobre
 
