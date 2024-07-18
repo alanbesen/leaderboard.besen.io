@@ -1,4 +1,4 @@
-## PractiScore Leader Board
+# PractiScore Leader Board (IPSC)
 
 Solução de integração com Aplicativo PractiScore (1.7.x e 2.0.x) para Leaderboard em tempo real e transmissão Online. 
 
@@ -8,14 +8,18 @@ Pontos Chaves: IPSC, Practiscore, Leaderboards, score logs, live stream, live re
 
 #### CONTATOS:
 
-Instagram - @alanbesen_ipsc
+* [Instagram](https://www.instagram.com/alanbesen_ipsc)
 
-Youtube - @alanbesen_ipsc
+* [YouTube](https://www.youtube.com/@alanbesen_ipsc)
 
-E-Mail - alanc.besen [at] gmail [dot] com
+* [Email](mailto:alanc.besen@gmail.com)
+
+* [GitHub](https://github.com/alanbesen)
+
 
 #### EQUIPE IPSC - ZFT INDAIAL/LSC:
-Instagram - @zuchifirearmstraining
+
+* [Instagram](https://www.instagram.com/zuchifirearmstraining/)
 
 
 ## Principais funcionalidades
@@ -75,3 +79,7 @@ Deixar uma ou mais TVs ou dispositivos em loop para exibição dos resultados, o
 Transmissão online com uma ou mais cameras fixas, com possibilidade de vários cenários e transições, overlay de exemplo no print screen abaixo com o resultado dos atletas, onde soma todos os pontos (A, C, D, M e etc) dos stages que o atirador já passou, atualizando em tempo real caso o atleta passe em outros stages
 
 [![LastShooter](docs/assets/youtube02.png)](docs/assets/youtube02.png)
+
+#
+© 2024 Alan Besen. Todos os direitos reservados.
+
