@@ -1,3 +1,8 @@
+---
+title: IPSC Leaderboard
+description: Solução de integração com Aplicativo PractiScore (1.7.x e 2.0.x) para Leaderboard em tempo real e transmissão Online. 
+---
+
 # PractiScore Leader Board (IPSC)
 
 Solução de integração com Aplicativo PractiScore (1.7.x e 2.0.x) para Leaderboard em tempo real e transmissão Online. 
