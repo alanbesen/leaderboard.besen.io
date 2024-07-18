@@ -1,5 +1,3 @@
-title: IPSC Leaderboard para PratctiScore
-
 remote_theme: "mmistakes/minimal-mistakes@4.26.2"
 plugins:
   - jekyll-remote-theme
