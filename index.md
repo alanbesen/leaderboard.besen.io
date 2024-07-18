@@ -1,7 +1,7 @@
 ---
 layout: home
+title: Sobre
 ---
-## Sobre
 
 Solução de integração com Aplicativo PractiScore (1.7.x e 2.0.x) para Leaderboard em tempo real e transmissão Online. 
 
