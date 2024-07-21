@@ -11,7 +11,7 @@ Pontos Chaves: IPSC, Practiscore, Leaderboards, score logs, live stream, live re
 
 #### CONTATOS:
 
-* [Instagram](https://www.instagram.com/alanbesen_ipsc)
+* [Instagram](https://www.instagram.com/alanbesen.ipsc/)
 
 * [YouTube](https://www.youtube.com/@alanbesen_ipsc)
 
@@ -40,7 +40,6 @@ Pontos Chaves: IPSC, Practiscore, Leaderboards, score logs, live stream, live re
 ## Exemplo - Live com OBS Studio
 
 {% include youtube.html id="gMSRpUYfUCY" %}
-
 
 # Screenshots
 
