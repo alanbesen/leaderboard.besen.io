@@ -53,7 +53,7 @@ Informações dos tablets, para acompanhar a sincronia de dados
 
 Caso de uso: Dispositivo ou tablet em cada stage, onde exibe o restultado do último atirador que pontuou na pista
 
-[![LastShooter](docs/assets/stage_last02.png)](docs/assets/stage_last02.png)
+[![LastShooter](docs/assets/stage_last03.png)](docs/assets/stage_last03.png)
 
 
 ## Stage Detalhado
@@ -64,23 +64,18 @@ Caso de uso: Dispositivo ou tablet em cada stage, onde exibe o restultado do úl
 
 [![LastShooter](docs/assets/stage02.png)](docs/assets/stage02.png)
 
-## Modo TV - Quiosque
-
-Deixar uma ou mais TVs ou dispositivos em loop para exibição dos resultados
-
-[![LastShooter](docs/assets/kiosk01.png)](docs/assets/kiosk01.png)
 
 ## Modo TV - Quiosque - Com Soma dos Totais
 
-Deixar uma ou mais TVs ou dispositivos em loop para exibição dos resultados, onde soma todos os pontos (A, C, D, M e etc) dos stages que o atirador já passou. 
+Deixar uma ou mais TVs ou dispositivos em loop para exibição dos resultados, onde soma todos os pontos (A, C, D, M e etc) e os stages que o atleta já pontuou na prova. 
 
-[![LastShooter](docs/assets/kiosk04.png)](docs/assets/kiosk04.png)
+[![LastShooter](docs/assets/kiosk05.png)](docs/assets/kiosk05.png)
 
 ## Modo Stream - Com overlay para OBS studio
 
 Transmissão online com uma ou mais cameras fixas, com possibilidade de vários cenários e transições, overlay de exemplo no print screen abaixo com o resultado dos atletas, onde soma todos os pontos (A, C, D, M e etc) dos stages que o atirador já passou, atualizando em tempo real caso o atleta passe em outros stages
 
-[![LastShooter](docs/assets/youtube02.png)](docs/assets/youtube02.png)
+[![LastShooter](docs/assets/youtube03.png)](docs/assets/youtube03.png)
 
 #
 © 2024 Alan Besen. Todos os direitos reservados.
