@@ -39,7 +39,7 @@ Pontos Chaves: IPSC, Practiscore, Leaderboards, score logs, live stream, live re
 
 ## Exemplo - Live com OBS Studio
 
-{% include youtube.html id="gMSRpUYfUCY" %}
+{% include youtube.html id="ZTPz0UQ9-So" %}
 
 # Screenshots
 
