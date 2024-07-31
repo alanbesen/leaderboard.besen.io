@@ -77,6 +77,17 @@ Transmissão online com uma ou mais cameras fixas, com possibilidade de vários 
 
 [![LastShooter](docs/assets/youtube03.png)](docs/assets/youtube03.png)
 
+
+## Resultados em tempo real on-line via IPSC.guru
+
+Se houver disponibilidade de internet (Wi-Fi, 4G, etc.) durante a prova, é possível transmitir e publicar os resultados em tempo real via IPSC.guru ([IPSC.guru](https://ipsc.guru)). Isso permite que os resultados sejam compartilhados instantaneamente com os atletas. Além da exibição dos resultados na TV do quiosque, também é possível fazer streaming via YouTube, permitindo que os atletas acompanhem os resultados diretamente em seus celulares durante a prova. Essa integração facilita o acompanhamento dos resultados, proporcionando uma experiência mais interativa e atualizada tanto para os participantes quanto para os espectadores.
+
+
+[![Online IPSC Guru](docs/assets/online01.png)](docs/assets/online01.png)
+
+
+[![Online IPSC Guru](docs/assets/online02.png)](docs/assets/online02.png)
+
 #
 © 2024 Alan Besen. Todos os direitos reservados.
 
