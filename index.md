@@ -13,7 +13,38 @@ Com a nossa plataforma, os organizadores podem transformar suas competições em
 
 Essa solução é voltada para clubes e federações de IPSC que desejam proporcionar uma experiência diferenciada em suas provas, conectando atletas e público de maneira inovadora. Com funcionalidades como Leaderboards interativos, score logs detalhados, resultados ao vivo e modos de exibição em quiosque, a aplicação torna o gerenciamento e a visualização dos dados de prova mais eficientes e atraentes.
 
-### Pontos-Chave
+# Sumário
+
+- [Sobre](#sobre)
+- [Aplicação](#aplicação)
+- [Pontos-Chave](#pontos-chave)
+- [Principais Funcionalidades](#principais-funcionalidades)
+  - [Modo Quiosque para Exibição em TV](#modo-quiosque-para-exibição-em-tv)
+  - [Modo de Exibição com Overlay para OBS Studio](#modo-de-exibição-com-overlay-para-obs-studio)
+  - [Modo de Exibição por Stage (com a Pontuação do Último Atleta)](#modo-de-exibição-por-stage-com-a-pontuação-do-último-atleta)
+  - [Lista de Dispositivos (Tablets) com Status de Latência da Rede](#lista-de-dispositivos-tablets-com-status-de-latência-da-rede)
+  - [Resultados por Stage e por Divisão em Tempo Real](#resultados-por-stage-e-por-divisão-em-tempo-real)
+  - [Resultados por Match Points em Tempo Real](#resultados-por-match-points-em-tempo-real)
+  - [Resultados Agrupados com Somatórias em Tempo Real](#resultados-agrupados-com-somatórias-em-tempo-real)
+  - [Multi Tablets - Coleta de Resultados Sincronizada](#multi-tablets---coleta-de-resultados-sincronizada)
+- [Exemplo - Live com OBS Studio](#exemplo---live-com-obs-studio)
+- [Screenshots](#screenshots)
+  - [Lista de Tablets](#lista-de-tablets)
+  - [Último Atirador do Stage](#último-atirador-do-stage)
+  - [Stage Detalhado](#stage-detalhado)
+  - [Resumo do Stage](#resumo-do-stage)
+  - [Modo TV - Quiosque - Com Soma dos Totais](#modo-tv---quiosque---com-soma-dos-totais)
+  - [Modo Stream - Com Overlay para OBS Studio](#modo-stream---com-overlay-para-obs-studio)
+- [Resultados em tempo real on-line via IPSC.guru](#resultados-em-tempo-real-on-line-via-ipscguru)
+- [Detalhes de provas com convite, links de inscrição e gestão](#detalhes-de-provas-com-convite-links-de-inscrição-e-gestão)
+  - [Gestão da Prova: Exibição de Opções](#gestão-da-prova-exibição-de-opções)
+  - [Verify Online: Detalhamento para o Atleta](#verify-online-detalhamento-para-o-atleta)
+- [Export para WinMSS e Shootinghouse Provas do Usuário IPSC.guru](#export-para-winmss-e-shootinghouse-provas-do-usuário-ipscguru)
+- [Contatos](#contatos)
+- [Equipe IPSC - ZFT Indaial/LSC](#equipe-ipsc---zft-indaiallsc)
+
+
+# Pontos-Chave
 
 - **IPSC**: Foco total em competições de IPSC, atendendo às necessidades específicas desse esporte.
 - **PractiScore**: Integração completa com as versões 1.7.x e 2.0.x do aplicativo, facilitando a coleta e exibição dos resultados.
