@@ -137,7 +137,7 @@ Quando há disponibilidade de internet, também habilitamos a sincronização em
 
 Abaixo, ilustramos a interface de gestão da prova, onde são exibidas as opções para acessar as funcionalidades mencionadas. Esta centralização permite um controle eficiente e uma rápida tomada de decisões durante o evento.
 
-[![Online IPSC Guru](docs/assets/Verify0001.png)](docs/assets/Verify0001.png)
+[![Online IPSC Guru](docs/assets/match_admin.png)](docs/assets/match_admin.png)
 
 ### Verify Online: Detalhamento para o Atleta
 
