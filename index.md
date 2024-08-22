@@ -14,8 +14,6 @@ Com a nossa plataforma, os organizadores podem transformar suas competições em
 Essa solução é voltada para clubes e federações de IPSC que desejam proporcionar uma experiência diferenciada em suas provas, conectando atletas e público de maneira inovadora. Com funcionalidades como Leaderboards interativos, score logs detalhados, resultados ao vivo e modos de exibição em quiosque, a aplicação torna o gerenciamento e a visualização dos dados de prova mais eficientes e atraentes.
 
 # Sumário
-
-- [Sobre](#sobre)
 - [Aplicação](#aplicação)
 - [Pontos-Chave](#pontos-chave)
 - [Principais Funcionalidades](#principais-funcionalidades)
