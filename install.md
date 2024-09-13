@@ -33,9 +33,9 @@
    - Agora, com o arquivo aberto no Bloco de Notas, você deve configurar as seguintes variáveis ou substituir o arquivo por um obtido no portal:
    
      ```ini
-     upload_token = 123456
-     client_id = 123
-     licenca = 6e0fcf03-bd75-478e-a21d-cff92c5ffd50
+     upload_token = xxxxx
+     client_id = xxx
+     licenca = xxxx
      ```
 
    - Após fazer as alterações, clique em **Arquivo** no canto superior esquerdo e selecione **Salvar**.
