@@ -47,6 +47,3 @@ A interação com o usuário é simples: ao clicar no botão **"Exportar para Wi
 
 - Outras modalidades que não possuem tags específicas seguirão as regras padrão de vinculação e geração de tags definidas pelo sistema.
 
----
-
-Este guia garante que os administradores e organizadores de competições possam gerar arquivos de exportação que atendam tanto ao **WinMSS** quanto ao **ShootingHouse**, com todas as modalidades e divisões corretamente vinculadas e configuradas para importação.
