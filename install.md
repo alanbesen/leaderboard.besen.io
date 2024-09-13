@@ -1,21 +1,30 @@
 # ps-leaderboard Installation Guide
 
+## Requisitos do Sistema:
+
+- Este sistema é compatível apenas com **Windows 7 ou superior**. Certifique-se de que seu sistema operacional atenda a este requisito antes de prosseguir.
+
 ## Passos para Instalação:
 
-1. **Descompactar o arquivo ZIP:**
-   - Extraia o conteúdo do arquivo `ps-leaderboard.zip` para o diretório obrigatório:  
-     `C:\ps-leaderboard`
+1. **Download do Arquivo ZIP:**
+   - Faça o download do arquivo `ps-leaderboard.zip` a partir do link fornecido.
 
-2. **Arquivos e Estrutura de Diretórios:**
+2. **Descompactar o arquivo ZIP:**
+   - Após o download, localize o arquivo `ps-leaderboard.zip` na pasta de downloads do seu computador.
+   - Clique com o **botão direito do mouse** no arquivo `ps-leaderboard.zip` e escolha a opção **Extrair Tudo...**.
+   - Na janela que abrir, selecione o caminho `C:\` como o destino da extração e clique em **Extrair**.
+   - Isso criará a pasta `C:\ps-leaderboard` contendo todos os arquivos necessários.
+
+3. **Arquivos e Estrutura de Diretórios:**
    Dentro do diretório `C:\ps-leaderboard`, você encontrará os seguintes arquivos:
-   
+
    - `remove_service.bat`: Deve ser executado como **Administrador** para remover o serviço.
    - `install_service.bat`: Deve ser executado como **Administrador** para instalar o serviço.
    - `nssm.exe`
    - `ps_service_manager.exe`
    - `config.ini`
 
-   Além disso, você encontrará um subdiretório:  
+   Além disso, você encontrará um subdiretório:
    `C:\ps-leaderboard\ps\`
 
    Dentro deste subdiretório `ps`, você verá os seguintes itens:
@@ -23,7 +32,7 @@
    - `config.ini`
    - `ps.exe`
 
-3. **Como Abrir e Editar o Arquivo `config.ini` com o Notepad:**
+4. **Como Abrir e Editar o Arquivo `config.ini` com o Notepad:**
    - Navegue até o diretório `C:\ps-leaderboard\ps\`.
    - Encontre o arquivo chamado `config.ini`.
    - Clique com o **botão direito do mouse** no arquivo `config.ini`.
@@ -40,7 +49,7 @@
 
    - Após fazer as alterações, clique em **Arquivo** no canto superior esquerdo e selecione **Salvar**.
 
-4. **Como Executar os Arquivos `install_service.bat` e `remove_service.bat` como Administrador:**
+5. **Como Executar os Arquivos `install_service.bat` e `remove_service.bat` como Administrador:**
 
    - **Passo 1:** Navegue até o diretório `C:\ps-leaderboard` onde os arquivos `install_service.bat` e `remove_service.bat` estão localizados.
    - **Passo 2:** Clique com o **botão direito do mouse** no arquivo `install_service.bat` (ou `remove_service.bat`).
@@ -50,14 +59,14 @@
 
    - **Passo 4:** O script será executado e o serviço será instalado (ou removido, dependendo do arquivo escolhido). Aguarde até o processo ser concluído.
 
-5. **Instalação do Serviço:**
+6. **Instalação do Serviço:**
    - Siga os passos acima para executar o arquivo `install_service.bat` como **Administrador**.
-   
-6. **Configuração Final:**
+
+7. **Configuração Final:**
    - Certifique-se de que o arquivo `C:\ps-leaderboard\ps\config.ini` esteja devidamente configurado.
    - Depois disso, execute o `ps_service_manager.exe` para iniciar ou parar o serviço.
 
-7. **Acessar o Painel via Navegador:**
+8. **Acessar o Painel via Navegador:**
    - Depois de iniciar o serviço, obtenha o endereço IP da máquina para acessar o sistema no navegador. Para obter o IP da máquina no Windows, siga estas etapas:
    
      1. Pressione `Win + R` e digite `cmd` para abrir o Prompt de Comando.
@@ -67,8 +76,8 @@
 
    - No navegador, acesse o sistema usando o IP e a porta 5001:  
      `http://<IP>:5001`
-   
-8. **Configuração dos Tablets:**
+
+9. **Configuração dos Tablets:**
    - Para configurar os tablets, acesse:  
      `http://<IP>:5001/devices`
    
