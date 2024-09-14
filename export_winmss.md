@@ -1,4 +1,8 @@
-# Documentação do Processo de Exportação
+---
+title: Processo de Exportação / WinMSS s ShootinHouse
+---
+
+# Processo de Exportação / WinMSS s ShootinHouse
 
 Este processo de exportação foi desenvolvido para ser utilizado através da interface web da aplicação. Ele é acionado ao clicar no botão **"Exportar para WinMSS"** disponível na página de exportação.
 
@@ -35,7 +39,7 @@ Ao importar os arquivos gerados no sistema **ShootingHouse**, é necessário uti
 
 A interação com o usuário é simples: ao clicar no botão **"Exportar para WinMSS"**, todo o processamento é feito em segundo plano, e o usuário pode baixar os arquivos gerados assim que estiverem prontos.
 
-## Vinculação Correta de Modalidades no Arquivo WinMSS
+## Vinculação Correta de Modalidades no Arquivo zip para o ShootingHouse
 
 - Para **modalidades padrão como Handgun**, os arquivos gerados pelo sistema estarão corretamente vinculados à modalidade correspondente no **WinMSS**.
   
@@ -43,7 +47,12 @@ A interação com o usuário é simples: ao clicar no botão **"Exportar para Wi
 
 ## Tags Especiais
 
-- Para a **divisão Light**, será gerada automaticamente a **tag "380"** nos arquivos XML para garantir que a divisão seja importada corretamente.
+- Para a **divisão Light** e/ou **380**, será gerada automaticamente a **tag "380"** nos arquivos XML para garantir que a divisão seja importada corretamente.
+
+
+- Para a **Semi Auto Open**, geralmente vinculada a Mini Rifle será gerada automaticamente a **tag "MRO"** nos arquivos XML para garantir que a divisão seja importada corretamente.
+
+- Demais divisões, não vão ter tag vinculada. Divisões que estão com o nome de "Unknown - *Divisão*" vão estar sempre vinculadas a **Handgun - Open**
 
 - Outras modalidades que não possuem tags específicas seguirão as regras padrão de vinculação e geração de tags definidas pelo sistema.
 

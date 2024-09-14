@@ -1,3 +1,6 @@
+---
+title: ps-leaderboard Installation Guide
+---
 # ps-leaderboard Installation Guide
 
 ## Requisitos do Sistema:
