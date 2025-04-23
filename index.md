@@ -79,13 +79,13 @@ Veja como nossa solução se integra com o OBS Studio para transmissões profiss
 [![Modo Stream - OBS Studio](docs/assets/youtube03.png)](docs/assets/youtube03.png)
 *Overlay para transmissões ao vivo*
 
-## Integração com IPSC.guru
+## Integração com Scoring.Services
 
 ### Resultados Online em Tempo Real
-[![Online IPSC Guru](docs/assets/online01.png)](docs/assets/online01.png)
-*Visualização online dos resultados via IPSC.guru*
+[![Online Scoring Services](docs/assets/online01.png)](docs/assets/online01.png)
+*Visualização online dos resultados via Scoring.Services*
 
-[![Online IPSC Guru](docs/assets/online02.png)](docs/assets/online02.png)
+[![Online Scoring Services](docs/assets/online02.png)](docs/assets/online02.png)
 *Dashboard de resultados em tempo real*
 
 ### Gestão de Provas
@@ -113,11 +113,12 @@ Veja como nossa solução se integra com o OBS Studio para transmissões profiss
 - [YouTube](https://www.youtube.com/@alanbesen_ipsc)
 - [Email](mailto:alanc.besen@gmail.com)
 - [GitHub](https://github.com/alanbesen)
+- [Scoring Services](https://scoring.services)
 
 ### Equipe IPSC - ZFT Indaial/LSC
 - [Instagram](https://www.instagram.com/zuchifirearmstraining/)
 
 ---
 
-© 2024 Alan Besen. Todos os direitos reservados.
+© 2025 Alan Besen / Scoring Services. Todos os direitos reservados.
 
