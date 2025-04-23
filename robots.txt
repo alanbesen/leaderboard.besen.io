@@ -1,2 +1,5 @@
 User-agent: *
-Disallow:
+Allow: /
+Sitemap: https://hotsite.scoring.services/sitemap.xml
+
+# Canonical domain is hotsite.scoring.services

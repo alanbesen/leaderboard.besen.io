@@ -1,9 +1,27 @@
 title: IPSC Leaderboard para PractiScore
+description: Sistema de visualização de resultados IPSC para PractiScore
+author: Alan Besen
 
 # Site settings
 baseurl: "/"
 url: "https://alanbesen.github.io/leaderboard.besen.io"
+canonical_url: "https://hotsite.scoring.services"
+
+# SEO settings
+lang: pt-BR
+twitter:
+  username: scoring_services
+  card: summary_large_image
+social:
+  name: Scoring Services
+  links:
+    - https://hotsite.scoring.services
 
 # Build settings
 markdown: kramdown
 paginate: 5
+
+# Plugins
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
