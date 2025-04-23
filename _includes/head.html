@@ -1,23 +1,24 @@
+
 <script type="application/ld+json">
-{
-    "@context": "https://schema.org",
-    "@type": "WebSite",
-    "name": "Scoring Services",
-    "url": "https://scoring.services",
-    "description": "Plataforma de análise de desempenho para atletas de tiro prático IPSC, oferecendo comparação de resultados, estatísticas e ferramentas especializadas.",
-    "hasPart": {
-        "@type": "WebPage",
-        "name": "Hotsite Scoring Services",
-        "url": "https://hotsite.scoring.services",
-        "isPartOf": {
-            "@type": "WebSite",
-            "name": "Scoring Services",
-            "url": "https://scoring.services"
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Scoring Services",
+        "url": "https://scoring.services",
+        "description": "Plataforma de análise de desempenho para atletas de tiro prático IPSC, oferecendo comparação de resultados, estatísticas e ferramentas especializadas.",
+    
+        "hasPart": {
+            "@type": "WebPage",
+            "name": "Hotsite Scoring Services",
+            "url": "https://hotsite.scoring.services",
+            "isPartOf": {
+                "@type": "WebSite",
+                "name": "Scoring Services",
+                "url": "https://scoring.services"
+            }
         }
     }
-}
 </script>
-
 
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-YVCD3SW2BK" type="7794383cde90a475803eaf67-text/javascript"></script>
 <script type="7794383cde90a475803eaf67-text/javascript">
@@ -52,7 +53,9 @@ gtag('config', 'G-YVCD3SW2BK');
   <!-- Twitter -->
   <meta name="twitter:card" content="{{ site.twitter.card }}">
   <meta name="twitter:site" content="@{{ site.twitter.username }}">
-  <meta name="twitter:title" content="{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}">
+  <meta na
+
+twitter:title" content="{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}">
   <meta name="twitter:description" content="{{ page.description | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
 
   <!-- CSS -->
