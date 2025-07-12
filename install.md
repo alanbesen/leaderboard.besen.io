@@ -3,6 +3,21 @@ title: ps-leaderboard Installation Guide
 ---
 # ps-leaderboard Installation Guide
 
+## 🚀 Comece Agora - Registro e Download
+
+### 📝 Primeiro: Registro Gratuito
+**Para acessar o sistema, você precisa se registrar:**
+- **Registro:** [https://scoring.services/register](https://scoring.services/register)
+- **Processo:** Gratuito e leva menos de 2 minutos
+
+
+### ⬇️ Segundo: Download do Sistema
+**Após o registro, faça o download:**
+- **Download:** [https://login.scoring.services](https://login.scoring.services)
+- **Acesso:** Use suas credenciais de registro
+
+---
+
 ## Requisitos do Sistema
 
 **Importante:** Este sistema é compatível apenas com **Windows 7 ou superior**. Certifique-se de que seu sistema operacional atenda a este requisito antes de prosseguir com a instalação.
@@ -12,6 +27,15 @@ title: ps-leaderboard Installation Guide
 - Memória RAM: 4GB (recomendado 8GB)
 - Espaço em disco: 500MB livres
 - Conexão com internet para configuração inicial
+
+### Requisitos de Rede:
+
+**Fundamental:** Você precisa de uma conexão com internet e que o notebook ou computador esteja na mesma rede dos tablets e dispositivos com o PractiScore 1.7.x ou 2.x.
+
+**Por que isso é importante:**
+- **Mesma rede:** Garante que o sistema possa detectar e comunicar com os tablets
+- **PractiScore:** O sistema só funciona com versões 1.7.x ou 2.x do aplicativo
+- **Internet:** Necessária para ativação inicial e atualizações do sistema
 
 ## Passos para Instalação
 
@@ -45,7 +69,12 @@ Dentro do diretório `C:\ps-leaderboard`, você encontrará o seguinte arquivo:
 
 ![alt text](docs/assets/install_first_setup.png)
 
-#### 2.2 Configuração da Licença
+**Configuração da Licença:**
+Após a primeira execução, o sistema solicitará os dados de licença. Adicione as informações que você obterá no próximo passo:
+
+![alt text](docs/assets/install_license_software.png)
+
+#### 2.2 Obter Credenciais de Licença
 **O que fazer:** Obter as credenciais necessárias para ativar o sistema
 O sistema irá solicitar a configuração da licença. Para obter as credenciais necessárias:
 
@@ -110,7 +139,7 @@ Para configurar os tablets, você tem duas opções:
 **O que fazer:** Encontrar e conectar os tablets na rede
 Você pode fazer o scan e adicionar os tablets:
 
-- Clique no botão **"Escanear Rede"** ou similar
+- Clique no botão **"Iniciar Scan"** ou similar
 - **O que acontece:** O sistema procurará por tablets com PractiScore na rede local
 - **Tempo:** O scan pode levar alguns segundos dependendo do tamanho da rede
 
@@ -149,7 +178,7 @@ Após isso, os dados começarão a aparecer automaticamente no painel de adminis
 **O que fazer:** Acessar o painel principal para visualizar a prova
 No painel de admin, você já irá ver a prova após 60 segundos:
 
-- **URL do painel:** Geralmente `http://<IP>:5001` ou similar
+- **URL do painel de admin global:** https://login.scoring.services
 - **Primeira visualização:** A prova aparecerá automaticamente após 60 segundos
 - **Atualizações:** Os dados se atualizam em tempo real conforme os atletas completam as etapas
 
@@ -162,6 +191,7 @@ Após a configuração completa, você terá acesso a:
 **Para Atletas:**
 - **Link público:** Compartilhe o link com os atletas para que acompanhem suas posições
 - **Atualizações em tempo real:** Os atletas veem suas posições atualizadas instantaneamente
+- **Acesso móvel:** Os atletas podem acessar via https://m.scoring.services
 
 **Para Transmissões:**
 - **Overlay para OBS Studio:** Configure o overlay para transmissões ao vivo
@@ -180,11 +210,12 @@ Após a instalação completa, recomendamos:
 1. **Testar o sistema** com uma prova pequena antes de usar em competições importantes
 2. **Configurar o overlay** para suas transmissões
 3. **Treinar os árbitros** no uso dos tablets
-4. **Fazer backup** das configurações importantes
+4. **Compartilhar a prova com os atletas** usando o link gerado no sistema ou acessando https://m.scoring.services
 
 ## Suporte
 
 Se encontrar problemas durante a instalação:
 - Verifique se todos os requisitos do sistema estão atendidos
 - Certifique-se de que o firewall não está bloqueando as conexões
+- Confirme que todos os dispositivos estão na mesma rede
 - Entre em contato com o suporte técnico se necessário

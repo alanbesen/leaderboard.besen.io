@@ -22,6 +22,41 @@ canonical_url: https://hotsite.scoring.services
 - ✅ **Modo quiosque** para exibição contínua em TVs
 - ✅ **Score logs detalhados** para análise completa
 
+## 🚀 Comece Agora Mesmo!
+
+### 📝 Primeiro Passo: Registro Gratuito
+
+**Para começar a usar nossa solução, você precisa se registrar gratuitamente:**
+
+1. **Acesse:** [https://scoring.services/register](https://scoring.services/register)
+2. **Preencha** seus dados de cadastro
+3. **Confirme** seu email de ativação
+
+### 🔐 Segundo Passo: Acesso ao Sistema
+
+**Após o registro aprovado, acesse o painel de controle:**
+
+- **URL de Login:** [https://login.scoring.services](https://login.scoring.services)
+- **Use** suas credenciais de registro
+- **Inicie** a configuração do sistema
+
+### ⚡ Comece em Menos de 5 Minutos
+
+**Processo simples e rápido:**
+- ✅ **Registro gratuito** em menos de 2 minutos
+- ✅ **Aprovação automática** na maioria dos casos
+- ✅ **Configuração inicial** em menos de 10 minutos
+- ✅ **Sistema funcionando** em tempo real
+
+### 📖 Guia de Instalação Completo
+
+**Precisa de ajuda com a instalação?**
+- **[📋 Guia de Instalação Detalhado](https://hotsite.scoring.services/install.html)** - Passo a passo completo
+- **Instruções visuais** com screenshots
+- **Troubleshooting** para problemas comuns
+
+---
+
 ## Índice
 {:.no_toc}
 
@@ -153,9 +188,41 @@ canonical_url: https://hotsite.scoring.services
 - **Transmissões de alta qualidade** para audiência internacional
 - **Compatibilidade total** com padrões IPSC
 
+## 🚀 Comece Agora - É Gratuito!
+
+### 📋 Processo Simples de 3 Passos
+
+**1. Registro Gratuito**
+- Acesse: **[https://scoring.services/register](https://scoring.services/register)**
+- Preencha seus dados em menos de 2 minutos
+- Confirme seu email de ativação
+
+**2. Acesso ao Sistema**
+- Entre em: **[https://login.scoring.services](https://login.scoring.services)**
+- Use suas credenciais de registro
+- Acesse o painel de controle
+
+**3. Configuração Rápida**
+- Siga o **[📋 guia de instalação detalhado](https://hotsite.scoring.services/install.html)**
+- Configure seus tablets
+- Comece a usar em tempo real
+
+### ⚡ Vantagens do Registro Gratuito
+
+- ✅ **Sem custos** de registro ou mensalidade
+- ✅ **Acesso completo** a todas as funcionalidades
+- ✅ **Suporte técnico** incluído
+- ✅ **Atualizações automáticas** do sistema
+- ✅ **Backup automático** dos seus dados
+
 ## 📞 Entre em Contato
 
 **Pronto para transformar suas competições IPSC?**
+
+### 🚀 Ação Imediata
+- **[Registre-se Agora](https://scoring.services/register)** - Comece gratuitamente
+- **[Acesse o Sistema](https://login.scoring.services)** - Entre com suas credenciais
+- **[📋 Guia de Instalação](https://hotsite.scoring.services/install.html)** - Instruções completas
 
 ### Redes Sociais
 - [Instagram](https://www.instagram.com/scoring.services/) - Acompanhe nossos projetos
@@ -172,7 +239,9 @@ canonical_url: https://hotsite.scoring.services
 
 ---
 
-**Transforme suas competições IPSC em experiências inesquecíveis. Entre em contato hoje mesmo e descubra como podemos elevar suas provas ao próximo nível.**
+**🚀 Transforme suas competições IPSC em experiências inesquecíveis. Registre-se gratuitamente hoje mesmo e descubra como podemos elevar suas provas ao próximo nível.**
+
+**📝 [Registre-se Agora](https://scoring.services/register) | 🔐 [Acesse o Sistema](https://login.scoring.services) | 📋 [Guia de Instalação](https://hotsite.scoring.services/install.html)**
 
 © 2025 Alan Besen / Scoring Services. Todos os direitos reservados.
 
