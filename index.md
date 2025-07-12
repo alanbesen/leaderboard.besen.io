@@ -33,6 +33,7 @@ Essa solução é voltada para clubes e federações de IPSC que desejam proporc
 - **Live Stream**: Transmissão ao vivo com integração de resultados
 - **Resultados Ao Vivo**: Visualização instantânea dos resultados
 - **Modo Quiosque**: Exibição contínua dos resultados em telas dedicadas
+- **Suporte para Prism e OBSStudio com overlays customizados
 
 ### Funcionalidades Detalhadas
 
@@ -76,7 +77,10 @@ Veja como nossa solução se integra com o OBS Studio para transmissões profiss
 [![Modo TV - Quiosque](docs/assets/kiosk05.png)](docs/assets/kiosk05.png)
 *Modo TV com somatória de totais*
 
-[![Modo Stream - OBS Studio](docs/assets/youtube03.png)](docs/assets/youtube03.png)
+
+![alt text](docs/assets/show_overlay_config.png)
+![alt text](docs/assets/show_overlay_config_2.png)
+
 *Overlay para transmissões ao vivo*
 
 ## Integração com Scoring.Services
@@ -109,10 +113,10 @@ Veja como nossa solução se integra com o OBS Studio para transmissões profiss
 
 ## Contatos
 
-- [Instagram](https://www.instagram.com/alanbesen.ipsc/)
+- [Instagram](https://www.instagram.com/scoring.services/)
 - [YouTube](https://www.youtube.com/@alanbesen_ipsc)
 - [Email](mailto:alanc.besen@gmail.com)
-- [GitHub](https://github.com/alanbesen)
+- [GitHub](https://github.com/scoring.services)
 - [Scoring Services](https://scoring.services)
 
 ### Equipe IPSC - ZFT Indaial/LSC

@@ -3,103 +3,188 @@ title: ps-leaderboard Installation Guide
 ---
 # ps-leaderboard Installation Guide
 
-## Requisitos do Sistema:
+## Requisitos do Sistema
 
-- Este sistema é compatível apenas com **Windows 7 ou superior**. Certifique-se de que seu sistema operacional atenda a este requisito antes de prosseguir.
+**Importante:** Este sistema é compatível apenas com **Windows 7 ou superior**. Certifique-se de que seu sistema operacional atenda a este requisito antes de prosseguir com a instalação.
 
-## Passos para Instalação:
+### Requisitos Mínimos:
+- Sistema Operacional: Windows 7, 8, 10 ou 11
+- Memória RAM: 4GB (recomendado 8GB)
+- Espaço em disco: 500MB livres
+- Conexão com internet para configuração inicial
 
-1. **Download do Arquivo ZIP:**
-   - Faça o download do arquivo `ps-leaderboard.zip` a partir do link fornecido.
+## Passos para Instalação
 
-2. **Descompactar o arquivo ZIP:**
-   - Após o download, localize o arquivo `ps-leaderboard.zip` na pasta de downloads do seu computador.
-   - Clique com o **botão direito do mouse** no arquivo `ps-leaderboard.zip` e escolha a opção **Extrair Tudo...**.
-   - Na janela que abrir, selecione o caminho `C:\` como o destino da extração e clique em **Extrair**.
-   - Isso criará a pasta `C:\ps-leaderboard` contendo todos os arquivos necessários.
+### 1. Download e Extração
 
-3. **Arquivos e Estrutura de Diretórios:**
-   Dentro do diretório `C:\ps-leaderboard`, você encontrará os seguintes arquivos:
+#### 1.1 Download do Arquivo ZIP
+**O que fazer:** Baixe o arquivo de instalação do sistema
+- Faça o download do arquivo `ps-leaderboard.zip` a partir do link fornecido
+- **Dica:** Salve o arquivo em uma pasta de fácil acesso, como "Downloads"
 
-   - `remove_service.bat`: Deve ser executado como **Administrador** para remover o serviço.
-   - `install_service.bat`: Deve ser executado como **Administrador** para instalar o serviço.
-   - `nssm.exe`
-   - `ps_service_manager.exe`
-   - `config.ini`
+#### 1.2 Descompactar o arquivo ZIP
+**O que fazer:** Extrair os arquivos do sistema para o local correto
+- Após o download, localize o arquivo `ps-leaderboard.zip` na pasta de downloads do seu computador
+- Clique com o **botão direito do mouse** no arquivo `ps-leaderboard.zip` e escolha a opção **Extrair Tudo...**
+- Na janela que abrir, selecione o caminho `C:\` como o destino da extração e clique em **Extrair**
+- **Por que C:\?** Esta localização garante que o sistema tenha as permissões necessárias para funcionar corretamente
+- Isso criará a pasta `C:\ps-leaderboard` contendo todos os arquivos necessários
 
-   Além disso, você encontrará um subdiretório:
-   `C:\ps-leaderboard\ps\`
+#### 1.3 Arquivos e Estrutura de Diretórios
+**O que você encontrará:** Verificação dos arquivos extraídos
+Dentro do diretório `C:\ps-leaderboard`, você encontrará o seguinte arquivo:
+- `ps_service_manager.exe` - Este é o programa principal que gerencia todo o sistema
 
-   Dentro deste subdiretório `ps`, você verá os seguintes itens:
-   
-   - `config.ini`
-   - `ps.exe`
+### 2. Configuração Inicial
 
-4. **Como Abrir e Editar o Arquivo `config.ini` com o Notepad:**
-   - Navegue até o diretório `C:\ps-leaderboard\ps\`.
-   - Encontre o arquivo chamado `config.ini`.
-   - Clique com o **botão direito do mouse** no arquivo `config.ini`.
-   - No menu que aparecer, selecione a opção **Abrir com**.
-   - Escolha o programa **Bloco de Notas (Notepad)** da lista e clique em **OK**.
+#### 2.1 Executar o Gerenciador de Serviços
+**O que fazer:** Iniciar o programa principal pela primeira vez
+- Navegue até a pasta `C:\ps-leaderboard`
+- Execute o arquivo `ps_service_manager.exe` com duplo clique
+- **Primeira execução:** O sistema detectará que é a primeira vez e iniciará o processo de configuração
 
-   - Agora, com o arquivo aberto no Bloco de Notas, você deve configurar as seguintes variáveis ou substituir o arquivo por um obtido no portal:
-   
-     ```ini
-     upload_token = xxxxx
-     client_id = xxx
-     licenca = xxxx
-     ```
+![alt text](docs/assets/install_first_setup.png)
 
-   - Após fazer as alterações, clique em **Arquivo** no canto superior esquerdo e selecione **Salvar**.
+#### 2.2 Configuração da Licença
+**O que fazer:** Obter as credenciais necessárias para ativar o sistema
+O sistema irá solicitar a configuração da licença. Para obter as credenciais necessárias:
 
-5. **Como Executar os Arquivos `install_service.bat` e `remove_service.bat` como Administrador:**
+**Passo 1:** Acesse o portal de licenças
+- Abra seu navegador e vá para: https://login.scoring.services
+- Faça login com o seu usuário e senha
 
-   - **Passo 1:** Navegue até o diretório `C:\ps-leaderboard` onde os arquivos `install_service.bat` e `remove_service.bat` estão localizados.
-   - **Passo 2:** Clique com o **botão direito do mouse** no arquivo `install_service.bat` (ou `remove_service.bat`).
-   - **Passo 3:** No menu que aparecer, clique na opção **Executar como administrador**.
-   
-     > **Nota:** Se aparecer uma mensagem do Controle de Conta de Usuário (UAC) perguntando se você deseja permitir que o programa faça alterações no seu computador, clique em **Sim**.
+**Passo 2:** Navegar até o perfil
+- Após fazer login, clique em **Perfil** no menu superior
 
-   - **Passo 4:** O script será executado e o serviço será instalado (ou removido, dependendo do arquivo escolhido). Aguarde até o processo ser concluído.
+![alt text](docs/assets/install_admin_get_licence.png)
 
-6. **Instalação do Serviço:**
-   - Siga os passos acima para executar o arquivo `install_service.bat` como **Administrador**.
+**Passo 3:** Copiar as credenciais
+- Na seção de perfil, você encontrará três informações importantes:
+  - **Licença:** Código de ativação do sistema
+  - **Token:** Chave de autenticação
+  - **User ID:** Identificador do usuário
+- Copie essas três informações (você precisará delas na próxima etapa)
 
-7. **Configuração Final:**
-   - Certifique-se de que o arquivo `C:\ps-leaderboard\ps\config.ini` esteja devidamente configurado.
-   - Depois disso, execute o `ps_service_manager.exe` para iniciar ou parar o serviço.
+![alt text](docs/assets/install_admin_get_licence_profile.png)
 
-8. **Acessar o Painel via Navegador:**
-   - Depois de iniciar o serviço, obtenha o endereço IP da máquina para acessar o sistema no navegador. Para obter o IP da máquina no Windows, siga estas etapas:
-   
-     1. Pressione `Win + R` e digite `cmd` para abrir o Prompt de Comando.
-     2. Digite o comando:  
-        `ipconfig`
-     3. Procure a seção **Adaptador de Rede** (pode variar dependendo do seu tipo de conexão) e localize o **Endereço IPv4**.
+**Dica:** Mantenha essas informações em local seguro, pois serão necessárias para futuras configurações
 
-   - No navegador, acesse o sistema usando o IP e a porta 5001:  
-     `http://<IP>:5001`
+### 3. Instalação e Inicialização do Serviço
 
-9. **Configuração dos Tablets:**
-   - Para configurar os tablets, acesse:  
-     `http://<IP>:5001/devices`
-   
-   - **Como obter o IP no tablet:**
-     
-     **iOS (iPad/iPhone):**
-     1. Vá para `Configurações`.
-     2. Toque em `Wi-Fi`.
-     3. Toque no ícone de "i" ao lado da rede Wi-Fi conectada.
-     4. O IP será mostrado na seção **Endereço IP**.
-   
-     **Android:**
-     1. Vá para `Configurações`.
-     2. Toque em `Conexões` ou `Rede e Internet` (pode variar entre os dispositivos).
-     3. Toque em `Wi-Fi` e selecione a rede conectada.
-     4. O endereço IP será exibido em **Endereço IP**.
+#### 3.1 Instalar o Serviço
+**O que fazer:** Instalar o serviço do sistema no Windows
+Após configurar a licença, você terá a tela inicial onde instalará o serviço necessário:
 
-   - **Configuração do PractiScore:**  
-     Certifique-se de que o software `PractiScore` esteja aberto no tablet.
-     - Adicione o dispositivo na página de `Devices` e reinicie o scheduler.
-   
-   - Após isso, os dados começarão a aparecer automaticamente no painel de administração.
+- Clique no botão **"Instalar Serviço"** ou similar
+- **O que acontece:** O sistema criará um serviço do Windows que rodará automaticamente
+- **Permissões:** O Windows pode solicitar permissões de administrador - aceite
+
+![alt text](docs/assets/install_service01.png)
+
+#### 3.2 Iniciar o Serviço
+**O que fazer:** Ativar o serviço para começar a funcionar
+Após instalar, você pode iniciar o serviço:
+
+- Clique no botão **"Iniciar Serviço"** ou similar
+- **Status:** O sistema mostrará que o serviço está "Rodando" ou "Ativo"
+- **Verificação:** Uma luz verde ou indicador similar confirmará que está funcionando
+
+![alt text](docs/assets/install_after_start_service.png)
+
+### 4. Configuração dos Tablets
+
+#### 4.1 Acessar a Interface de Dispositivos
+**O que fazer:** Abrir a interface web para configurar os tablets
+Para configurar os tablets, você tem duas opções:
+
+**Opção 1 - Via URL direta:**
+- Abra seu navegador e acesse: `http://<IP>:5001/devices`
+- **Substitua <IP>** pelo IP do seu computador (exemplo: `http://192.168.1.100:5001/devices`)
+
+**Opção 2 - Via botão na interface:**
+- Clique no botão **"Acessar"** conforme imagem anterior após iniciar o serviço
+
+![alt text](docs/assets/install_web_devices.png)
+
+#### 4.2 Escanear e Adicionar Tablets
+**O que fazer:** Encontrar e conectar os tablets na rede
+Você pode fazer o scan e adicionar os tablets:
+
+- Clique no botão **"Escanear Rede"** ou similar
+- **O que acontece:** O sistema procurará por tablets com PractiScore na rede local
+- **Tempo:** O scan pode levar alguns segundos dependendo do tamanho da rede
+
+![alt text](docs/assets/install_web-devices_network_scan.png)
+
+**Adicionar os dispositivos encontrados:**
+- Na lista de dispositivos encontrados, selecione os tablets que deseja conectar
+- Clique em **"Adicionar"** ou **"Conectar"** para cada tablet
+- **Confirmação:** O sistema mostrará uma mensagem de sucesso para cada tablet adicionado
+
+![alt text](docs/assets/install_web_devices_save.png)
+
+#### 4.3 Reiniciar o Serviço
+**O que fazer:** Aplicar as mudanças e reiniciar o sistema
+Após adicionar os dispositivos, é necessário reiniciar o serviço:
+
+- Clique no botão **"Reiniciar Serviço"** ou similar
+- **Aguarde:** O sistema parará e iniciará novamente automaticamente
+- **Confirmação:** Volte para a tela principal quando o serviço estiver rodando novamente
+
+![alt text](docs/assets/install_after_devices_add_restart_service.png)
+
+#### 4.4 Verificar Dispositivos Conectados
+**O que fazer:** Confirmar que os tablets estão conectados e funcionando
+Após isso, os dados começarão a aparecer automaticamente no painel de administração:
+
+- **Pré-requisito:** Certifique-se de que o PractiScore está aberto no tablet
+- **Coleta de dados:** O sistema começará a receber informações da prova automaticamente
+- **Tempo:** Pode levar alguns segundos para os primeiros dados aparecerem
+
+![alt text](docs/assets/install_show_devices.png)
+
+### 5. Configuração Final
+
+#### 5.1 Acesso ao Painel de Administração
+**O que fazer:** Acessar o painel principal para visualizar a prova
+No painel de admin, você já irá ver a prova após 60 segundos:
+
+- **URL do painel:** Geralmente `http://<IP>:5001` ou similar
+- **Primeira visualização:** A prova aparecerá automaticamente após 60 segundos
+- **Atualizações:** Os dados se atualizam em tempo real conforme os atletas completam as etapas
+
+![alt text](docs/assets/install_admin_match_config.png)
+
+#### 5.2 Funcionalidades Disponíveis
+**O que você pode fazer:** Explorar as funcionalidades do sistema
+Após a configuração completa, você terá acesso a:
+
+**Para Atletas:**
+- **Link público:** Compartilhe o link com os atletas para que acompanhem suas posições
+- **Atualizações em tempo real:** Os atletas veem suas posições atualizadas instantaneamente
+
+**Para Transmissões:**
+- **Overlay para OBS Studio:** Configure o overlay para transmissões ao vivo
+- **App Prism:** Use o app Android ou iPhone para lives e transmissões
+- **Personalização:** Configure cores, logos e informações da sua organização
+
+**Para Administradores:**
+- **Painel de controle:** Monitore todos os dispositivos conectados
+- **Configurações avançadas:** Ajuste parâmetros específicos da prova
+- **Relatórios:** Gere relatórios detalhados da competição
+
+## Próximos Passos
+
+Após a instalação completa, recomendamos:
+
+1. **Testar o sistema** com uma prova pequena antes de usar em competições importantes
+2. **Configurar o overlay** para suas transmissões
+3. **Treinar os árbitros** no uso dos tablets
+4. **Fazer backup** das configurações importantes
+
+## Suporte
+
+Se encontrar problemas durante a instalação:
+- Verifique se todos os requisitos do sistema estão atendidos
+- Certifique-se de que o firewall não está bloqueando as conexões
+- Entre em contato com o suporte técnico se necessário
