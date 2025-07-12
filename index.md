@@ -51,11 +51,11 @@ Essa solução é voltada para clubes e federações de IPSC que desejam proporc
 
 ## Demonstração e Exemplos
 
-### Live Stream com OBS Studio
+### Live Stream com OBS Studio, prism e similares
 
-Veja como nossa solução se integra com o OBS Studio para transmissões profissionais:
+Veja como nossa solução se integra com o OBS Studio, Prism e similares com suporte a overlay para transmissões profissionais:
 
-{% include youtube.html id="ZTPz0UQ9-So" %}
+{% include youtube.html id="yXC4XaqkmGI" %}
 
 ## Interface e Visualizações
 
